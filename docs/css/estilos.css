@@ -1,0 +1,11 @@
+html {
+  /* Color de fondo */
+  background-color: #000000;
+  /* Color de letra */
+  color: rgb(255, 255, 255);
+  scroll-behavior: smooth;
+}
+
+img{
+  max-width: 100%;
+}
