@@ -1,11 +1,80 @@
+:root{
+  --color-body: navy;
+  --color-bg: white;
+  --primary-font:"Roboto Condensed", sans-serif;
+}
 html {
   /* Color de fondo */
-  background-color: #000000;
+  background-color: var(--color-bg);
   /* Color de letra */
-  color: rgb(255, 255, 255);
   scroll-behavior: smooth;
+  border: 3rem solid navy;
 }
 
-img{
+img, iframe{
   max-width: 100%;
+}
+table{
+  width: 100%;
+}
+
+body{
+  font-size: 16px;
+  font-family: --primary-font;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--color-body)
+}
+
+a{
+  color: red;
+  transition: all 0.5s ease-out;
+}
+
+a:hover{
+  color: blue;
+}
+
+.roboto-condensed-400 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.bg-pink{
+  background-color:pink;
+}
+.bg-green{
+  background-color: green;
+}
+.bg-yellow{
+  background-color: yellow;
+}
+
+.text-left{
+  text-align: left;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.text-right{
+  text-align: right;
+}
+
+.text-cyan{
+  color: cyan;
+}
+
+.text-red{
+  color: red;
+}
+
+.text-green{
+  color: green;
+}
+.rounded{
+  border-radius: 100%;
 }
